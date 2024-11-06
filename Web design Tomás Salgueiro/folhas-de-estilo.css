@@ -1,0 +1,128 @@
+/*Isto é a minha folha de estilos*/
+/*Tomás Salgueiro 11/10/2024*/
+h1 {
+   font-size: 50px !important;
+color: rgb(0, 0, 0);
+text-shadow:
+1px 1px 1px rgb(0, 255, 4),
+2px 2px 1px rgb(0, 255, 8);
+}
+
+body {
+    background-color: rgb(4, 50, 21);
+    background-image: url();
+}
+
+html {
+    font-family:'Arial Black', 'Helvetica', Arial, sans-serif;
+}
+
+p {
+    color:rgb(255, 255, 255);
+    text-shadow: 
+    1px 1px 1px rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.6;
+}
+
+
+
+h2 {
+    color: rgb(255, 166, 0);
+    font-size: 30px;
+}
+
+h3 {
+    color: rgb(142, 51, 121);
+    font-size: 20px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ff7733;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #e495e4;
+  }
+  
+  tbody tr {
+    background-image: url(https://t3.ftcdn.net/jpg/03/61/96/08/360_F_361960870_UW7evqdYC5VQloEmRJA3clZGQLq5Zauu.jpg);
+  }
+  
+  table {
+    background-color: #ffffff;
+  }
+
+  #exciting {
+    background: linear-gradient(to bottom, #ffe8d4, #04ffb4);
+    border: 1px solid #696969;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px black;
+  }
+  
+  #exciting:before {
+    content: '→';
+    margin-right: 5px;
+  }
+
+  a:link {
+    color: red;
+  }
+  
+
+  a:visited {
+    color: rgb(255, 27, 160);
+  }
+  
+ 
+  a:hover {
+    color: rgb(238, 255, 0);
+  }
+  
+  
+  a:active {
+    color: blue;
+  }
+
+  #louco {
+    background: linear-gradient(to bottom, #acc411, #ff0404);
+    border: 1px solid #580045;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px rgb(68, 0, 255);
+  }
+  
+  #louco:before {
+    content: '→';
+    margin-right: 5px;
+}
+
+.nota {
+    background: rgb(255, 0, 0);
+  }
+
+
+
+
+/* Media queries para dispositivos móveis */
+@media (max-width: 768px) {
+  body {
+      font-size: 14px;
+  }
+  
+  nav {
+      flex-direction: column;
+  }
+
+  nav a {
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+  }
+  
+  .container {
+      padding: 10px;
+  }
+}
+
